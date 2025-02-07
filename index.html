@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto aumentado - Actualización Académica en la Enseñanza de la Matemática a lo largo de la escolaridad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="fontawesome/css/brands.css" rel="stylesheet">
+    <link href="fontawesome/css/solid.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- MENU 2 -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#1">1. Marco general de la clase</a>
+      <a href="#2">2. El trabajo con los problemas: las primeras interacciones</a>
+      <a href="#3">3. Intercambio colectivo sobre los problemas</a>
+      <a href="#4">4. Sistematización de ideas</a>
+      <a href="#5">5. Referencias</a>
+    </p>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<button class="btn btn-primary menu" onclick="openNav()">Índice</button>
+ <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasmenu" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Índice</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p class="my-2" style="font-size: 1em;">
+  </div>
+</div>
+
+<!-- PROGRESS BAR -->
+<div id="main">
+
+<nav style="position: fixed; bottom: 0; z-index: 1; width: 100%; padding: 0px;" class="navbar bg-body-tertiary">
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+</nav>
+
+<!-- CARATULA 1-->
+<div id="presentacion" class="jumbotron d-flex align-items-center min-vh-100 p-2" style= "background-image: url( proyecto-caratula-inst.jpg); background-size: cover; background-position: center;">
+  <div class="container-fluid" >
+  </div>
+  </div>
+
+  <!-- CARATULA 2-->
+<div id="presentacion" class="jumbotron d-flex align-items-center min-vh-100 p-2" style= "background-image: url( fondo.jpg); background-size: cover; background-position: center;">
+  <div class="container-fluid" >
+    <div class="row">
+      <div class="col-sm-6" style="margin: auto;">
+        <p class="my-2" style="font-size: 1em; text-align: justify;" >El presente proyecto aumentado es un material producido para el módulo <i>Quehaceres matemáticos en la escuela</i> de la Actualización Académica en la Enseñanza de la Matemática a lo largo de la escolaridad, del Instituto Superior de Estudios Pedagógicos.</p> 
+        <button class="btn btn-lg btn-outline-dark my-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">Orientaciones para la navegación</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- BLOQUE 1 -->
+<div id="1" class="jumbotron d-flex align-items-center min-vh-100 p-2 bg-verdemusgo">
+    <div class="container-fluid" >
+      <div class="row" style="margin-top: 10vh;">
+        <div class="col-sm-6" style="margin: auto; text-align: left;">
+          <p class="h1 my-2">1. <a data-bs-toggle="offcanvas" href="#offcanvasScrolling0" class="comentario">Marco general de la clase</a></p>
+          <p class="my-2" style="font-size: 1em; text-align: justify;" >
+            El análisis se centrará en una clase que se desarrolló en un sexto grado de la Escuela Graduada “Joaquín V. González”, perteneciente a la Universidad Nacional de La Plata en la provincia de Buenos Aires, en el marco de un proyecto educativo institucional de la escuela, en el que aparece enunciado el contenido “La construcción de cuadrados, rectángulos y rombos” para identificar propiedades relativas a sus lados y a sus ángulos. En esta escuela, el equipo docente cuenta con coordinadores de área que realizan en conjunto actividades vinculadas al análisis didáctico de situaciones de enseñanza, por lo que la clase que analizaremos forma parte de una secuencia didáctica planificada colaborativamente por un grupo de docentes en un espacio de formación continua.</a>
+          </p>
+          <p class="my-2" style="font-size: 1em; text-align: justify;" >En dicha secuencia didáctica, los alumnos debían resolver un conjunto de problemas a partir de los conocimientos que tenían disponibles y de los que pudieran construir a partir de la resolución de las actividades. En las primeras actividades se retoma la clasificación de triángulos según sus lados y ángulos y se comienza a trabajar la noción de diagonal (noción que se ampliará en la clase que analizamos) que será utilizada como recurso para iniciar el estudio de las propiedades de los cuadriláteros. En las actividades subsiguientes, se continúa reflexionando sobre lo construido para sistematizarlo.</a>
+          </p>
+          <p class="my-2" style="font-size: 1em; text-align: justify;" >Además, se propusieron diversas organizaciones áulicas para las instancias de trabajo: individual, en parejas o en pequeños grupos. Previo a iniciar la clase, se decidió que el agrupamiento sería, inicialmente, en parejas, aunque la tarea prevista era de resolución individual. Se anticipó que ambos problemas resultarían significativos para los estudiantes y que promoverían la construcción de nuevos conocimientos a partir de algunos disponibles que les resultaban insuficientes para llegar a la resolución. </a>
+          </p>
+          <p class="my-2" style="font-size: 1em; text-align: justify;" >Para situar el análisis en la clase de este módulo, presentamos el trabajo en torno al segundo problema, dadas las limitaciones en cuanto a extensión. En el registro que compartimos y analizamos se puede identificar, entre otras cosas, que el conocimiento a enseñar es el que permite resolver los problemas planteados y, en consecuencia, los convierte en la situación ideal —aunque no la única—, para la construcción de dichas ideas.</a>
+          </p>
+          <p class="my-2" style="font-size: 1em; text-align: justify; margin-left: 40px" >Brousseau postula que para todo conocimiento existe una situación fundamental que de alguna manera representa la problemática que permite la emergencia de dicho conocimiento. Esto significa que el conocimiento en cuestión aparece como la estrategia óptima para resolver el problema involucrado cada conocimiento puede caracterizarse por una o más situaciones adidácticas que preservan su sentido y que llamaremos “situaciones fundamentales". (Brousseau citado en Sadovsky, p. 31).</a>
+          </p>
+          <p class="my-2" style="font-size: 1em; text-align: justify;" >En la clase analizada, encontramos dos problemas diferentes en los que se utilizaron como variables didácticas los útiles de geometría, la hoja lisa y la posibilidad o no de medir. El <strong>primer problema</strong> plantea una situación de análisis y argumentación sobre procedimientos hipotéticos de personajes de los problemas. </a>
+          </p>
+          <p style="margin-left: 10px; margin-right: 10px;"><img src="Imagen_cuadro_1.png" alt="Imagen_cuadro_1" width="700" height="600" class="img-fluid atto_image_button_text-bottom" style="display: block; margin-left: auto; margin-right: auto;" /></p></p>
+          <p style="margin-left: 10px; margin-right: 10px;"><img src="Imagen_cuadro_1a.png" alt="Imagen_cuadro_1a" width="700" height="600" class="img-fluid atto_image_button_text-bottom" style="display: block; margin-left: auto; margin-right: auto;" /></p></p>
+          <p class="my-2" style="font-size: 1em; text-align: center;" >Fuente: Agrasar, M., Chemello, G. y Díaz, A., 2014, p. 113. </a>
+          </p>
+          <p class="my-2" style="font-size: 1em; text-align: justify;" >El <strong>segundo problema</strong> promueve un trabajo en torno a la clasificación de triángulos y rombos a partir de lo que cada estudiante pueda inferir de la figura construida, por copiado, en el primer ítem. </a>
+          </p>
+          <p style="margin-left: 10px; margin-right: 10px;"><img src="Imagen_cuadro_2.png" alt="Imagen_cuadro_2" width="700" height="600" class="img-fluid atto_image_button_text-bottom" style="display: block; margin-left: auto; margin-right: auto;" /></p></p>
+          <p class="my-2" style="font-size: 1em; text-align: center;" >Fuente: Agrasar, M., Chemello, G. y Díaz, A., 2014, p. 115. </a>
+          </p>
+          <table border="1" align="center" style="height: 20px; border-color: #000000; border-width: 1px; ; width: 100%;">
+          <tbody>
+            <tr>
+            <td><p style="margin-left: 40px; margin-right: 40px; margin-top: 20px; text-align: justify;"><span style="font-size: medium; font-family: arial, helvetica, sans-serif; color: #000000;"></span><strong>Nota:</span></strong> La circunferencia que tiene los puntos J y M como dos de sus puntos debiera estar desplazada hacia arriba de manera tal que los puntos A y B también sean puntos de la circunferencia con centro D.</td>
+            </tr>
+          </tbody>
+          </table>                
+
+      
+       
+          </div>
+        </div>
+      </div>
+  </div>
+    <!-- BLOQUE 6 -->
+<div id="6" class="jumbotron d-flex align-items-center min-vh-100 p-2 bg-verdemusgo">
+  <div class="container-fluid" >
+    <div class="row">
+      <div class="col-sm-6" style="margin: auto; text-align: left;">
+        <p class="h1 my-2">2. Selección y definición del problema</p>
+        <p class="my-2" style="font-size: 1em;" ><b>Taller de Lectura y Escritura creativa</b></p>
+        <p class="my-2" style="font-size: 1em;" ><b>De naturaleza electiva para estudiantes de la Institución.</b></p>
+        <p class="my-2" style="font-size: 1em; text-align: justify;">Teniendo en cuenta el contexto histórico, social y familiar que alcanza a la escuela en su particular porosidad y los cambios que necesariamente se han producido en los modos de transmisión y en la generación de subjetividades, así como en los formatos de comunicación textual que frecuentan nuestros estudiantes y también los adultos-; cada objeto de estudio profundiza sus particularidades como campo de comprensión y producción de tipologías textuales, en espacios físicos y virtuales de intercambio</p>
+        <p class="my-2" style="font-size: 1em; text-align: justify;">La propuesta para el año 2022 es abrir el camino a géneros y lenguajes que frecuentan nuestros adolescentes con la finalidad de que puedan escribir textos literarios y no literarios. Para ello, en cada jornada de taller se abordará una consigna de escritura y un momento de lectura en torno a ella. El cierre consistirá en armar un plan de escritura personal que les permita concretar lo trabajado en un texto propio que se leerá en el encuentro siguiente. Esto implica establecer una relación libre y personal con la palabra y crear situaciones comunicativas dinámicas y reales que expandan lo aprendido en el aula.</p>  
+        <p class="my-2" style="font-size: 1em; text-align: justify;">La posibilidad de elegir escribir, es la gran potencia de todo taller de escritura en el ámbito escolar. Escribir para crear historias, personajes insólitos, fantásticos, divertidos. Escribir para decir lo que piensan, sienten, imaginan, promueve la metacognición, la exploración de los múltiples sentidos del lenguaje y la apropiación de la propia palabra.</p>
+        <p class="my-2" style="font-size: 1em; text-align: justify;"><b>Algunas actividades:</b></p>
+        <p class="my-2" style="font-size: 1em; text-align: justify;">∙ Escritura de textos poéticos y narrativos.</p>
+        <p class="my-2" style="font-size: 1em; text-align: justify;">∙ Juegos con palabras, poemas y canciones.</p>
+        <p class="my-2" style="font-size: 1em; text-align: justify;">∙ Invención de palabras, de trabalenguas, de adivinanzas.</p>
+        <p class="my-2" style="font-size: 1em; text-align: justify;">∙ Escritura de textos que remitan a la experiencia personal: relato de anécdotas familiares, narraciones de sueños y/o pesadillas, objetos y/o seres que conviven.</p>
+        <p class="my-2" style="font-size: 1em; text-align: justify;">∙ Creación de una historia a partir de un hecho histórico del pasado y/o del presente.</p>
+        <p class="my-2" style="font-size: 1em; text-align: justify;">∙ Redacción de narraciones, revisión y reescritura desde el concepto de géneros discursivos.</p>
+        <p class="my-2" style="font-size: 1em; text-align: justify;">∙ Creación de una antología narrativa y/ poética.</p>
+        <p class="my-2" style="font-size: 1em;"><b>PROYECTO INSTITUCIONAL OFICIO DEL ESTUDIANTE</b></p>
+        <p class="my-2" style="font-size: 1em; text-align: justify;">Destinado a los primeros años. Sentido: Revisar técnicas de estudio y acercar distancias entre la escuela Primaria y la Secundaria.</p>
+
+        <div id="7" class="jumbotron d-flex align-items-center min-vh-100 p-2 bg-verdemusgo">
+          <div class="container-fluid" >
+            <div class="row">        
+      
+        <p class="my-2" style="font-size: 1em;"><b>Bibliografía:</b></p>
+        <p class="my-2" style="font-size: 1em;"><p style="margin-left: 0px; margin-right: 0px; text-align: left;">∙ Colomer, T. y Camps, A. (1996). Enseñar a leer, enseñar a comprender. Madrid: Celeste / M.E.C.<br /><span id="docs-internal-guid-798761a8-7fff-4dcf-7502-98f6ff271726"><span>∙ Dussel, I. y Quevedo, L. (2010). <br /></span><em>∙ Educación y nuevas tecnologías: los desafíos pedagógicos ante el mundo digital</em><span>. Buenos Aires: Santillana.<br /><span id="docs-internal-guid-99ab0908-7fff-a0ec-0a85-fb961fd3c256"><span>∙ Larrosa, J. (2018). </span><span><em>P de profesor</em>. </span><span>Buenos Aires: Centro de Publicaciones Educativas y Material Didáctico.<br /><span id="docs-internal-guid-24dff03d-7fff-0951-7016-5cdbd04f4daf"><span>∙ Gobierno de Córdoba. Ministerio de Educación. Subsecretaría de Promoción de Igualdad y Calidad Educativa (2016). Desarrollo de la capacidad de oralidad, lectura y escritura. Acuerdos didácticos institucionales- Documento de Acompañamiento N°3.</span></span><br /></span></span><span id="docs-internal-guid-ae46286c-7fff-3f8e-3d88-c01d237dca9b"><span>∙ Gobierno de Córdoba, Ministerio de Educación, Subsecretaría de Promoción de Igualdad y Calidad Educativa (2016). Documento de Acompañamiento Oralidad, Lectura y Escritura con foco en Alfabetización y Comprensión Lectora. </span><span><a href="https://www.igualdadycalidadcba.gov.ar/SIPEC-CBA/publicaciones/PNFP/Asesoramiento/f4-acompanamiento.pdf" target="_blank"><span style="text-decoration: underline;">https://www.igualdadycalidadcba.gov.ar/SIPEC-CBA/publicaciones/PNFP/Asesoramiento/f4-acompanamiento.pdf</span></a><br /><span id="docs-internal-guid-dda03ffc-7fff-04c6-7b0f-2eec398aa876"><span>∙ Ministerio de Educación de la Provincia de Córdoba (2022). </span><span><em>Guía de acompañamiento para la planificación de los proyectos institucionales</em>.</span></span></span></span><br /></span></span></span>∙ Plan de Mejora Institucional del Instituto Parroquial Bernardo D’Elia (2018). Proyecto Educativo Institucional del Instituto Parroquial Bernardo D’Elia.<br /><span id="docs-internal-guid-1bf4432f-7fff-68c0-c3c5-e887480f7acc"><span>∙ Weinberg, Liliana (2012), </span><em>El lugar del ensayo</em><span>. CELEHIS- Revista del Centro de Letras Hispanoamericanas. Año 21, N° 24. Mar del Plata, Argentina.</span></span><br /></span></span></span></span></p></p>
+      </p>      
+    
+      <button class="btn btn-lg btn-outline-dark my-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Sobre el proyecto aumentado</button>
+
+</div>
+</div>
+</div>
+</div>
+ 
+
+<!-- Offcanvas comentario 12-->
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling12" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptions" id="offcanvasScrollingLabel"></h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>En este apartado se exponen y desarrollan algunas de las líneas de acción que se propusieron en el apartado anterior, y que en realidad se vienen sosteniendo a lo largo de toda la presentación del proyecto. Además, se especifican los modos en los que esas acciones se llevarán a cabo.</p>
+  </div>
+</div>
+
+
+        <!--MODAL DATOS GENERALES -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p><p style="margin-left: 10px; margin-right: 10px; margin-top: 10px; text-align: left;"><span style="font-size: medium; font-family: arial, helvetica, sans-serif;"><span id="docs-internal-guid-7db6f130-7fff-5bae-817b-25fe661c7cf9"><span>El proyecto institucional fue producido por una escuela del interior de la provincia de Córdoba, del departamento de Punilla, para el nivel Secundario, en el marco de los Programas Pedagógicos Priorizados 2022 – Lengua, Matemática y Cultura Digital. </span></span></span></p>
+    <p style="margin-left: 10px; margin-right: 10px; margin-top: 10px; text-align: left;"><span style="font-size: medium; font-family: arial, helvetica, sans-serif;"><span><span><span id="docs-internal-guid-76e76198-7fff-9dcc-915a-277c92ec17ab"><span>El proyecto aumentado se elaboró en el marco del </span><em>Seminario de Trabajo Final</em><span> de la Actualización Académica en Lengua y su Enseñanza, propuesta formativa brindada por el Instituto Superior de Estudios Pedagógicos. </span></span></span></span></span></p>
+    <p style="margin-left: 10px; margin-right: 10px; margin-top: 10px; text-align: left;"><span style="font-size: medium; font-family: arial, helvetica, sans-serif;"><span><span><span><span><span id="docs-internal-guid-f94855de-7fff-ecfe-ee6e-0300342389f8"><span>Su producción es resultado de un trabajo colaborativo en el que intervienen los diferentes equipos del ISEP en articulación con una especialista.</span></span></span></span></span></span></span></p>
+    <table border="0" align="center" style="width: 100%;">
+    <tbody>
+    <tr>
+    <td style="background-color: #ad0259; height: 0px;"></td>
+    </tr>
+    </tbody>
+    </table>
+    <p style="margin-left: 10px; margin-right: 10px; margin-top: 10px; text-align: left;"><strong><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: medium;"><span id="docs-internal-guid-4dc47ebb-7fff-3dba-82f9-b19617d231e8"><span>Cómo citar este material </span></span></span></strong></p>
+    <p style="margin-left: 10px; margin-right: 10px; margin-top: 10px; text-align: left;"><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: medium;"><span><span><span id="docs-internal-guid-65178711-7fff-8506-a927-dd9c5c99ef80" style="font-size: small;">Marconi, N., López, L. y equipos de producción del ISEP. (2024). <em>Notas y aportes a propósito del proyecto “Hacia una revisión progresiva de los Acuerdos Institucionales en torno a la capacidad oralidad, lectura y escritura”. Programa de fortalecimiento de la capacidad oralidad, lectura y escritura. Perspectivas de incorporación de la cultura digital</em>. Para el Instituto Superior de Estudios Pedagógicos, Ministerio de Educación de la Provincia de Córdoba.</span></span></span></span></p>
+    <table style="width: 100%;" border="0">
+    <tbody>
+    <tr>
+    <td style="background-color: #ad0259;"></td>
+    </tr>
+    </tbody>
+    </table>
+    <p style="margin-left: 10px; margin-right: 10px; margin-top: 10px; text-align: left;"><strong style="font-size: medium;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;">Equipo de producción</span></strong></p>
+    <p style="margin-left: 10px; margin-right: 10px; text-align: left;"><span style="color: #000000; font-size: small;"><span style="font-family: arial, helvetica, sans-serif;"><span id="docs-internal-guid-d1d4331b-7fff-5610-36de-379f8cfd6bde">Nadia Marconi y Lucrecia López</span><strong> | <em>Autoría<br /></em></strong><span id="docs-internal-guid-cbd52398-7fff-baa3-f8d4-a4253522a2bb"><span>Ana Belén Caminos y Florencia Ávila</span></span> <strong><em>| <em><span id="docs-internal-guid-9a7b649b-7fff-7753-cf7d-cb4c8b7fc573"><span>Didactización<br /></span></span></em></em></strong><span id="docs-internal-guid-9a7b649b-7fff-7753-cf7d-cb4c8b7fc573"></span><span id="docs-internal-guid-9a7b649b-7fff-7753-cf7d-cb4c8b7fc573"><span id="docs-internal-guid-dfb3adb6-7fff-5192-0137-e9a93e23d59e"><span id="docs-internal-guid-58cdf34e-7fff-c107-0fa7-96e402c90461"><span><span id="docs-internal-guid-765831b1-7fff-f952-1c0b-ba07dc83c58c"><span>Agustina Merro</span></span></span></span></span></span><strong><em><em><span id="docs-internal-guid-9a7b649b-7fff-7753-cf7d-cb4c8b7fc573"><span><span> </span><span><em>| <em>Corrección literaria<br /></em></em></span></span></span></em></em></strong></span></span><span style="color: #000000; font-size: small;"><span style="font-family: arial, helvetica, sans-serif;"><span id="docs-internal-guid-ed593b87-7fff-2f7a-c7cf-53c5cf981c6e"><span>Matías Rosini</span></span><em><em> </em></em><strong><em><em>|<em> Maquetación<br /></em></em></em></strong></span></span><span style="color: #000000; font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">Guadalupe Serra<em><em> </em></em><strong><em><em>|<em> Diseño</em></em></em></strong></span></span></p>
+    <table style="width: 100%;" border="0">
+    <tbody>
+    <tr>
+    <td style="background-color: #ad0259;"></td>
+    </tr>
+    </tbody>
+    </table>
+    <p style="margin-left: 10px; margin-right: 10px; margin-top: 10px; text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: medium;"><span style="color: #808080;"><span style="color: #000000;"><strong>Coordinación de la propuesta</strong></span></span></span></p>
+    <p style="margin-left: 10px; margin-right: 10px; text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;"><span style="color: #808080;"><span style="color: #000000;"><span id="docs-internal-guid-bd329561-7fff-f325-1373-772af87d06c8"><span><span id="docs-internal-guid-8b4d338d-7fff-116b-b4bd-4800815d860b"><span><span>Nadia Marconi</span></span></span></span></span><strong> | <em>Coordinación  </em></strong></span></span></span></p>
+    <table style="width: 100%;" border="0">
+    <tbody>
+    <tr>
+    <td style="background-color: #ad0259;"></td>
+    </tr>
+    </tbody>
+    </table>
+    <p style="margin-left: 10px; margin-right: 10px; margin-top: 10px; text-align: center;"><span style="font-size: small; font-family: arial, helvetica, sans-serif;"><em>Este material está bajo una licencia Creative Commons Atribución-NoComercial 4.0 Internacional</em> (<a href="https://creativecommons.org/licenses/by-nc/4.0/deed.es">CC BY-NC-4.0</a>).</span></p>
+    <p style="margin-left: 10px; margin-right: 10px;"><img src="Logo CC.png" alt="Licencia Creative Commons" width="69" height="21" class="img-fluid atto_image_button_text-bottom" style="display: block; margin-left: auto; margin-right: auto;" /></p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+       <!--MODAL DATOS NAVEGA -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Para navegar el proyecto aumentado, les sugerimos observar los fragmentos resaltados, ya que les brindarán algunas pistas de lectura vinculadas con el seminario. También, los invitamos a detenerse en los subrayados, en tanto amplían el abordaje de los contenidos. Por último, no se olviden de acceder a los botones y las ventanas emergentes, para una lectura completa del proyecto.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="scripts.js" charset="UTF-8"></script>
+
+</body>
+</html>
+-------------------------
+<!-- BLOQUE 2 -->
+<div id="2" class="jumbotron d-flex align-items-center min-vh-100 p-2 bg-verdemusgo">
+  <div class="container-fluid" >
+    <div class="row" style="margin-top: 10vh;"></div>
+      <div class="col-sm-6" style="margin: auto; text-align: left;">
+        <p class="h1 my-2">2. <a data-bs-toggle="offcanvas" href="#offcanvasScrolling8" class="comentario">Selección y definición del problema</a></p>
+        <p class="my-2" style="font-size: 1em; text-align: justify;" >Teniendo en cuenta el contexto histórico, social y familiar que alcanza a la  escuela en su particular porosidad y los cambios que necesariamente se han  producido en los modos de transmisión y en la generación de subjetividades, así  como en los formatos de comunicación textual que frecuentan nuestros estudiantes y también los adultos-; cada objeto de estudio profundiza sus particularidades como campo de comprensión y producción de tipologías textuales, en espacios físicos y  virtuales de intercambio.</a>
+        </p>
+        
+          
+        
+
+<!-- Offcanvas comentario 8-->
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling8" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptions" id="offcanvasScrollingLabel"></h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Bajo este subtítulo se explicitan cuestiones que nos permiten deducir el tipo de proyecto que se está diseñando y los objetivos generales que lo impulsan.</p>
+    <p>Para ver tipos de proyectos, revisar la clase 1.</p>
+  </div>
+</div>
+<!-- Offcanvas comentario 9-->
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling9" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptions" id="offcanvasScrollingLabel"></h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Es interesante esta afirmación, ya que traduce una postura de "reflexividad crítica": la escuela, en tanto institución social, es cambiante, se encuentra en el cruce de transformaciones sociales, políticas, culturales, etc., que la atraviesan y le imprimen la necesidad de revisarse permanentemente, repensar su rol en una comunidad específica, para ciertos alumnos y alumnas, en relación con demandas políticas y sociales puntuales.</p>
+    <p>Tal como expusimos en la clase 1, el ABP puede ser una instancia en la que esos intersticios empiecen a surgir.</p>
+  </div>
+</div>
+<!-- Offcanvas comentario 10-->
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling10" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptions" id="offcanvasScrollingLabel"></h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Los objetivos presentan de manera organizada muchos de los elementos que se vienen mencionando en relación con la demanda de las políticas públicas: qué necesidades concretas se advierten en esa institución en particular, qué propósitos se plantearán en función de lo que se busca mejorar y/o modificar.</p>
+    <p>Es importante que haya coherencia entre el planteo inicial, el posicionamiento teórico y los objetivos que orientarán, a su vez, las acciones y prácticas de enseñanza.</p>  </div>
+  </div>

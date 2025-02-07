@@ -1,0 +1,150 @@
+h1, h2, h3, h4, h5, h6, .navbar-brand{
+    font-family: 'Raleway';
+}
+
+.navbar-brand{
+    font-weight: 900;
+}
+
+.logos img{
+    object-fit: contain;
+    mix-blend-mode: color-burn; 
+}
+
+.bg-azul {
+    background-color: #3598D8;
+    }
+
+.bg-naranja {
+    background-color: #D45C5D;
+    }
+
+.bg-animada {
+	background: linear-gradient(-45deg, #AD0259, #F16A70, #FCE0B9);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+/* MENU INDICE */
+
+
+/* boton de apertura */
+
+.menu {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  color: white;
+  background-color: #5c5ced;
+  border: 0px;
+  transition: 0.3s;
+}
+
+.menu:hover {
+  background-color: #ee7a54;
+}
+
+/* estilos del menu lateral de indice */
+
+.sidenav {
+  height: 100%; 
+  width: 0; /* 0 width - cambiar el ancho abierto en scripts.js */
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f0f0f0;
+  overflow-x: hidden;
+  padding-top: 40px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 2px 2px 2px 20px;
+  text-decoration: none;
+  font-size: 1em;
+  color: #101046;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #ee7a54;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* estilo del contenido general de la pagina */
+#main {
+  transition: margin-left .5s;
+  padding: 0px;
+}
+
+/* para dispositivos donde la altura es menor a 450px */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+}
+
+/* TERMINA ESTILO DEL MENU */
+
+.comentario {
+  text-align: left; text-decoration: underline #5c5ced;
+}
+
+a {
+  color: #5c5ced;
+}
+
+
+.resaltado {
+    background-color: #fcedd9;
+  }
+
+
+/* BARRA DE PROGRESO GENERAL */
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f4ead9;
+  }
+  
+  .progress-container {
+    width: 100%;
+    height: 8px;
+    background: #f4ead9;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    background: #ee7a54;
+    width: 0%;
+  }
+
+  .content {
+    padding: 100px 0;
+    margin: 50px auto 0 auto;
+    width: 80%;
+  }
